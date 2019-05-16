@@ -1,0 +1,31 @@
+syntax = "proto3";
+package dotbpe;
+
+option csharp_namespace = "Survey.Protocols";
+option optimize_for = SPEED;
+
+
+
+import public "dotbpe_option.proto";
+import "message/apaper.proto"; //引入消息，因为部分消息和InnerService共用，所有单独一个文件，如果不共用，可直接定义在这里
+
+option (generic_markdown_doc) = true; //生成接口文档
+
+//答卷外观服务
+service APaperFacadeService{
+
+    option (service_id)= 10002 ;//设定服务ID
+  
+    // 获取答卷统计
+    rpc GetAPaperSta (GetQPaperStaReq) returns (QPaperStaRsp){
+        option (message_id)= 1 ; //设定消息ID
+
+        option (http_api_option) = {
+            path : "/api/qpaper/sta",
+            method : "get",
+            description : "获取问卷统计信息"           
+        };
+    };
+
+
+}

@@ -1,0 +1,13 @@
+{
+  /*对外依赖的服务*/
+  "remoteServices": [   
+    {
+      "serviceId": 0,
+      "messageId": "0",
+      "remoteAddress": "127.0.0.1:5301"
+    }
+  ],
+  "redis": {
+    "configuration": "127.0.0.1"
+  }
+}

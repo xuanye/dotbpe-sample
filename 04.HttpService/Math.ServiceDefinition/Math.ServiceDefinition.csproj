@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../../00.Shared/ref.props" />
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<NoWarn>$(NoWarn);1591</NoWarn>	
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotBPE.Extra.Castle" Version="$(ExtraCastlePackageVersion)" />
+    <PackageReference Include="DotBPE.Extra.JsonNet" Version="$(ExtraJsonNetPackageVersion)" />
+    <PackageReference Include="DotBPE.Extra.MessagePack" Version="$(ExtraMessagePackPackageVersion)" />
+    <PackageReference Include="DotBPE.Gateway" Version="$(GatewayPackageVersion)" />
+    <PackageReference Include="DotBPE.Rpc" Version="$(RpcPackageVersion)" />
+  </ItemGroup>
+
+</Project>

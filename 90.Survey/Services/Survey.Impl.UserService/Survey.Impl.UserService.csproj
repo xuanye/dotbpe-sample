@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Survey.Impl</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Survey.Core\Survey.Core.csproj" />
+    <ProjectReference Include="..\..\Survey.Models\Survey.Models.csproj" />
+    <ProjectReference Include="..\..\Survey.Protocols\Survey.Protocols.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+		 <RuntimeIdentifiers>win10-x64;centos.7-x64</RuntimeIdentifiers>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+      <PackageReference Include="DotBPE.AspNetGateway" Version="1.2.4" />
+      <PackageReference Include="Microsoft.AspNetCore" Version="2.1.3" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.1.2" />
+      <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
+      <PackageReference Include="Microsoft.Extensions.Caching.Redis" Version="2.1.2" />
+
+	  <PackageReference Include="Serilog.AspNetCore" Version="2.1.1" />
+		<PackageReference Include="Serilog" Version="2.7.1" />
+		<PackageReference Include="Serilog.Enrichers.Environment" Version="2.1.2" />
+		<PackageReference Include="Serilog.Filters.Expressions" Version="2.0.0" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="2.6.1" />
+		<PackageReference Include="Serilog.Sinks.Async" Version="1.3.0" />
+		<PackageReference Include="Serilog.Sinks.Literate" Version="3.0.0" />
+		<PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Survey.Protocols\Survey.Protocols.csproj" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <None Update="dotbpe.Development.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="dotbpe.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="hosting.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="serilog.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

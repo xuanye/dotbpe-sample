@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="_g\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotBPE.Protobuf" Version="1.2.4" />
+    <PackageReference Include="DotBPE.Protocol.Amp" Version="1.2.4" />
+    <PackageReference Include="Google.Protobuf" Version="3.6.1" />
+  </ItemGroup>
+
+</Project>
