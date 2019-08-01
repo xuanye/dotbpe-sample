@@ -1,15 +1,6 @@
-# dotbpe
+# tomato 示例程序
 
 ---
-
-
-dotbpe ![](https://travis-ci.org/xuanye/dotbpe.svg?branch=master)
--------------
-dotbpe一套基于dotnet core平台的业务流程处理引擎，力求解决项目开发中，关于服务端开发的各种通用问题，如远程过程调用（Rpc），延迟队列（DelayTaskQueue），任务调度（TaskManage），网关（Gateway）等问题。
-
-dotbpe rpc 项目就是其中的Rpc部分的实现，底层的通讯部份基于Peach（基于DotNetty封装，支持自定义协议的Socket类库）。该组件的目标并不是只是解决Rpc的问题，同时考虑到开发调式的便利性，支持本地服务和远端无差别开发，在编码时不用考虑服务是如何部署的（分布式或者单机部署），可以在项目初期流量较少时，只部署单台或者做简单的负载均衡即可，当项目流量增加后可通过配置和部署方案，不需要修改任何代码来实现快速扩容。
-
-dotbpe rpc 支持两种开发模式，一种类似于Dubbo的定义接口的方式Rpc服务，另外一种支持像gRpc方式，预先定义服务描述文件（.proto）来定义Rpc服务.
 
 
 
@@ -24,9 +15,9 @@ dotbpe rpc 支持两种开发模式，一种类似于Dubbo的定义接口的方�
 新建ServiceDefinition,添加引用
 
 ```
-   dotnet nuget add DotBPE.Extra.Castle
-   dotnet nuget add DotBPE.Extra.MessagePack
-   dotnet nuget add DotBPE.Rpc
+   dotnet nuget add Tomato.Extra.Castle
+   dotnet nuget add Tomato.Extra.MessagePack
+   dotnet nuget add Tomato.Rpc
 ```
 
 然后开始定义接口
@@ -125,6 +116,5 @@ static void Main(string[] args)
 
 ## 反馈
 
-可以通过 [https://github.com/dotbpe/dotbpe/issues](https://github.com/dotbpe/dotbpe/issues) 反馈问题
-另外我创建了一个QQ群：
-![](http://ww1.sinaimg.cn/large/697065c1ly1fnsy1a8apgj206a082t8y.jpg)
+可以通过 [https://github.com/xuanye/tomato/issues](https://github.com/xuanye/tomato/issues) 反馈问题
+另外我创建了一个QQ群：699044833
