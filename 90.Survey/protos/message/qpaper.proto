@@ -1,9 +1,9 @@
 syntax = "proto3";
-package dotbpe;
+package Tomato;
 
 option csharp_namespace = "Survey.Protocols";
 option optimize_for = SPEED;
-import public "dotbpe_option.proto";
+import public "Tomato_option.proto";
 
 
 option (common_fields) = "client_ip,identity,x_request_id,device_id,device_os,device_name,src_code,app_version,return_message" ; //设置公共字段

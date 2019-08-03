@@ -1,4 +1,4 @@
-﻿using DotBPE.Rpc;
+﻿using Tomato.Rpc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Survey.Core;

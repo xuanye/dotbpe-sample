@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
-using DotBPE.Rpc;
+using Tomato.Rpc;
 
 namespace Math.ServiceDefinition
 {

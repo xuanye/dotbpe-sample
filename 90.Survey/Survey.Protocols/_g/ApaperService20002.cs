@@ -38,7 +38,7 @@ namespace Survey.Protocols {
             "b3RicGUuQVBhcGVyU3RhRGV0YWlsUnNwIgTQ8xgEGgbI8xiinAFCGUgBqgIQ",
             "U3VydmV5LlByb3RvY29sc+jzGAFQAGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::DotBPE.Protobuf.DotbpeOptionReflection.Descriptor, global::Survey.Protocols.ApaperReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Tomato.Protobuf.TomatoOptionReflection.Descriptor, global::Survey.Protocols.ApaperReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null));
     }
     #endregion

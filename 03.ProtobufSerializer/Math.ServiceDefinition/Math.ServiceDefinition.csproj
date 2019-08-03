@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DotBPE.Extra.Castle" Version="$(ExtraCastlePackageVersion)" />
-    <PackageReference Include="DotBPE.Extra.Protobuf" Version="$(ExtraProtobufPackageVersion)" />
-    <PackageReference Include="DotBPE.Rpc" Version="$(RpcPackageVersion)" />    
+    <PackageReference Include="Tomato.Extra.Castle" Version="$(ExtraCastlePackageVersion)" />
+    <PackageReference Include="Tomato.Extra.Protobuf" Version="$(ExtraProtobufPackageVersion)" />
+    <PackageReference Include="Tomato.Rpc" Version="$(RpcPackageVersion)" />    
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.QuickStart", "01.QuickStart", "{178F80A0-35A4-11E9-845F-E393FA6A2B6E}"
 EndProject
@@ -19,8 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.HttpService", "04.HttpSe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "90.Survey", "90.Survey", "{B79DA49F-48B2-471C-8B53-E1274E61F568}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "91.PiggyMetrics", "91.PiggyMetrics", "{7685AFA6-D239-4E86-9E1E-ABD8DC4CB3BB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.ConsulServiceDescovery", "06.ConsulServiceDescovery", "{C537323F-E558-4AAE-B694-6665909FF905}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math.ServiceDefinition", "02.JsonSerializer\Math.ServiceDefinition\Math.ServiceDefinition.csproj", "{58FDC014-D5CC-4FA3-9568-EA73739F1E7B}"
@@ -31,13 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math.Client", "02.JsonSeria
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protos", "protos", "{0A039E04-29E6-433B-8BF8-22DF5546D751}"
 	ProjectSection(SolutionItems) = preProject
-		03.ProtobufSerializer\protos\dotbpe_option.proto = 03.ProtobufSerializer\protos\dotbpe_option.proto
+		03.ProtobufSerializer\protos\Tomato_option.proto = 03.ProtobufSerializer\protos\Tomato_option.proto
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{25B26BAE-67EF-4493-A5A3-39DE630747A6}"
 	ProjectSection(SolutionItems) = preProject
-		03.ProtobufSerializer\scripts\dotbpe-amp-link = 03.ProtobufSerializer\scripts\dotbpe-amp-link
-		03.ProtobufSerializer\scripts\dotbpe-amp-link.cmd = 03.ProtobufSerializer\scripts\dotbpe-amp-link.cmd
+		03.ProtobufSerializer\scripts\Tomato-amp-link = 03.ProtobufSerializer\scripts\Tomato-amp-link
+		03.ProtobufSerializer\scripts\Tomato-amp-link.cmd = 03.ProtobufSerializer\scripts\Tomato-amp-link.cmd
 		03.ProtobufSerializer\scripts\gen-code.sh = 03.ProtobufSerializer\scripts\gen-code.sh
 	EndProjectSection
 EndProject
@@ -53,9 +51,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math.HttpServer", "04.HttpS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.HttpServiceWithSwagger", "05.HttpServiceWithSwagger", "{077A626C-44DD-41D9-971B-3D429A0E9645}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerSample.HttpServer", "05.HttpServiceWithSwagger\SwaggerSample.HttpServer\SwaggerSample.HttpServer.csproj", "{70042FED-EDD0-44E2-ABBD-1BC95E9CCEEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerSample.HttpServer", "05.HttpServiceWithSwagger\SwaggerSample.HttpServer\SwaggerSample.HttpServer.csproj", "{70042FED-EDD0-44E2-ABBD-1BC95E9CCEEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerSample.ServiceDefinition", "05.HttpServiceWithSwagger\SwaggerSample.ServiceDefinition\SwaggerSample.ServiceDefinition.csproj", "{63BBA02D-8E5E-42FC-B556-D7371FBD3C4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerSample.ServiceDefinition", "05.HttpServiceWithSwagger\SwaggerSample.ServiceDefinition\SwaggerSample.ServiceDefinition.csproj", "{63BBA02D-8E5E-42FC-B556-D7371FBD3C4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,5 +1,5 @@
-﻿using DotBPE.AspNetGateway;
-using DotBPE.Protocol.Amp;
+﻿using Tomato.AspNetGateway;
+using Tomato.Protocol.Amp;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;

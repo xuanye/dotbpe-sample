@@ -4,11 +4,11 @@
 
 using System;
 using System.Threading.Tasks;
-using DotBPE.Rpc;
-using DotBPE.Protocol.Amp;
-using DotBPE.Rpc.Exceptions;
+using Tomato.Rpc;
+using Tomato.Protocol.Amp;
+using Tomato.Rpc.Exceptions;
 using Google.Protobuf;
-using DotBPE.Rpc.Client;
+using Tomato.Rpc.Client;
 
 namespace Survey.Protocols {
 

@@ -69,7 +69,7 @@ namespace Survey.Protocols {
             "ZV9vcyxkZXZpY2VfbmFtZSxzcmNfY29kZSxhcHBfdmVyc2lvbixyZXR1cm5f",
             "bWVzc2FnZVAAUAFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::DotBPE.Protobuf.DotbpeOptionReflection.Descriptor, global::Survey.Protocols.CommonReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Tomato.Protobuf.TomatoOptionReflection.Descriptor, global::Survey.Protocols.CommonReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Survey.Protocols.QuestionType), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Survey.Protocols.SaveQPaperReq), global::Survey.Protocols.SaveQPaperReq.Parser, new[]{ "ClientIp", "Identity", "XRequestId", "QpaperId", "Subject", "StartTime", "EndTime", "Description", "Questions" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Survey.Protocols.SaveQPaperRsp), global::Survey.Protocols.SaveQPaperRsp.Parser, new[]{ "ReturnMessage", "QpaperId" }, null, null, null),

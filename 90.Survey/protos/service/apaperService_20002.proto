@@ -1,12 +1,12 @@
 syntax = "proto3";
-package dotbpe;
+package Tomato;
 
 option csharp_namespace = "Survey.Protocols";
 option optimize_for = SPEED;
 
 
 
-import public "dotbpe_option.proto";
+import public "Tomato_option.proto";
 import "message/apaper.proto"; //引入消息，因为部分消息和InnerService共用，所有单独一个文件，如果不共用，可直接定义在这里
 
 

@@ -1,2 +1,2 @@
 @echo off
-protoc-gen-dotbpe2 %*
+protoc-gen-Tomato2 %*

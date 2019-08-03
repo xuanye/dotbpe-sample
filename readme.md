@@ -65,7 +65,7 @@ public class QuickStartService:BaseService<IQuickStartService>,IQuickStartServic
         var result = new RpcResult<SayHelloRes>{ Data = new SayHelloRes()};
 
         result.Code = 0;
-        result.Data.GreetingWords = $"Hello {req.Name},Welcome to DotBPE!";
+        result.Data.GreetingWords = $"Hello {req.Name},Welcome to Tomato!";
         return Task.FromResult(result);
     }
 }

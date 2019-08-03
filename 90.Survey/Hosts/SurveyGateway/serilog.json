@@ -72,7 +72,7 @@
               {
                 "Name": "ByIncludingOnly",
                 "Args": {
-                  "expression": "@Properties['SourceContext']='DotBPE.Protocol.Amp.CACAuditLogger'"
+                  "expression": "@Properties['SourceContext']='Tomato.Protocol.Amp.CACAuditLogger'"
                 }
               }
             ]
@@ -104,7 +104,7 @@
               {
                 "Name": "ByIncludingOnly",
                 "Args": {
-                  "expression": "@Properties['SourceContext']='DotBPE.Protocol.Amp.RequestAuditLogger'"
+                  "expression": "@Properties['SourceContext']='Tomato.Protocol.Amp.RequestAuditLogger'"
                 }
               }
             ]

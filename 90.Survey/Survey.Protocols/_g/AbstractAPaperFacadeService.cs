@@ -3,8 +3,8 @@
 
 #region Designer generated code
 
-using DotBPE.Protocol.Amp;
-using DotBPE.Rpc;
+using Tomato.Protocol.Amp;
+using Tomato.Rpc;
 using Google.Protobuf;
 using System.Threading.Tasks;
 

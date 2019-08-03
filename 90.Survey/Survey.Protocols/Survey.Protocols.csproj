@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DotBPE.Protobuf" Version="1.2.10" />
-    <PackageReference Include="DotBPE.Protocol.Amp" Version="1.2.10" />
+    <PackageReference Include="Tomato.Protobuf" Version="1.2.10" />
+    <PackageReference Include="Tomato.Protocol.Amp" Version="1.2.10" />
     <PackageReference Include="Google.Protobuf" Version="3.8.0" />
   </ItemGroup>
 

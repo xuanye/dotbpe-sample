@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
-using DotBPE.Rpc;
+using Tomato.Rpc;
 
 namespace Math.ServiceDefinition
 {
@@ -16,7 +16,7 @@ namespace Math.ServiceDefinition
         /// <param name="req">请求参数req</param>
         /// <returns>返回值Res</returns>
         [RpcMethod(1)]
-        [DotBPE.Gateway.Router("/api/math/sum")]
+        [Tomato.Gateway.Router("/api/math/sum")]
         Task<RpcResult<SumRes>> SumAsync(SumReq req);
     }
 

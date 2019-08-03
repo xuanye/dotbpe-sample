@@ -1,5 +1,5 @@
-using DotBPE.Rpc;
-using DotBPE.Rpc.Codes;
+using Tomato.Rpc;
+using Tomato.Rpc.Codes;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -8,11 +8,11 @@ using Vulcan.DataAccess;
 
 namespace Survey.Core
 {
-    public class DotBPECallContextStorage<TMessage> : IRuntimeContextStorage where TMessage : InvokeMessage
+    public class TomatoCallContextStorage<TMessage> : IRuntimeContextStorage where TMessage : InvokeMessage
     {
         private readonly IContextAccessor<TMessage> _contextAccessor;
-        private ILogger<DotBPECallContextStorage<TMessage>> _logger;
-        public DotBPECallContextStorage(IContextAccessor<TMessage> contextAccessor,ILogger<DotBPECallContextStorage<TMessage>> logger)
+        private ILogger<TomatoCallContextStorage<TMessage>> _logger;
+        public TomatoCallContextStorage(IContextAccessor<TMessage> contextAccessor,ILogger<TomatoCallContextStorage<TMessage>> logger)
         {
             this._contextAccessor = contextAccessor;
             this._logger = logger;

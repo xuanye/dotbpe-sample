@@ -8,7 +8,7 @@
 
 
     <ItemGroup>
-      <PackageReference Include="DotBPE.AspNetGateway" Version="1.2.4" />
+      <PackageReference Include="Tomato.AspNetGateway" Version="1.2.4" />
       <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
       <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
       <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
@@ -31,10 +31,10 @@
 
 
     <ItemGroup>
-      <None Update="dotbpe.Development.json">
+      <None Update="Tomato.Development.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="dotbpe.json">
+      <None Update="Tomato.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="hosting.json">

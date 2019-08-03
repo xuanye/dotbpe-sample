@@ -1,6 +1,6 @@
 // [START declaration]
 syntax = "proto3";
-package dotbpe;
+package Tomato;
 // [END declaration]
 
 // [START csharp_declaration]
@@ -8,7 +8,7 @@ option csharp_namespace = "Math.ServiceDefinition";
 // [END csharp_declaration]
 option optimize_for = SPEED;
 
-import public "dotbpe_option.proto";
+import public "Tomato_option.proto";
 
 
 option (generic_markdown_doc) = true; //生成Markdown文档 

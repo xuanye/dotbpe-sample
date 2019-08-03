@@ -24,15 +24,15 @@ namespace SurveyServerHost
                 {
                     builder.AddJsonFile("hosting.json", optional: true)
                    .AddCommandLine(args)
-                   .AddEnvironmentVariables(prefix: "DOTBPE_");
+                   .AddEnvironmentVariables(prefix: "Tomato_");
                 })
                 .ConfigureAppConfiguration((hostContext, config) =>
                 {
-                    config.AddJsonFile("dotbpe.json", optional: true, reloadOnChange: true)
-                      .AddJsonFile($"dotbpe.{hostContext.HostingEnvironment.EnvironmentName}.json", optional: true)
+                    config.AddJsonFile("Tomato.json", optional: true, reloadOnChange: true)
+                      .AddJsonFile($"Tomato.{hostContext.HostingEnvironment.EnvironmentName}.json", optional: true)
                       .AddJsonFile("serilog.json", optional: false, reloadOnChange: false)
                       .AddJsonFile($"serilog.{hostContext.HostingEnvironment.EnvironmentName}.json", optional: true)
-                      .AddEnvironmentVariables(prefix: "DOTBPE_");
+                      .AddEnvironmentVariables(prefix: "Tomato_");
                 })
                 .ConfigureLogging((context, factory) =>
                 {

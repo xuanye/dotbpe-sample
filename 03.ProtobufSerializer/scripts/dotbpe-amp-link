@@ -1,2 +1,2 @@
 #!/bin/bash
-protoc-gen-dotbpe2 $@
+protoc-gen-Tomato2 $@

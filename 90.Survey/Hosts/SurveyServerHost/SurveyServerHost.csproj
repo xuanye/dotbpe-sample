@@ -35,10 +35,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="dotbpe.Development.json">
+    <None Update="Tomato.Development.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="dotbpe.json">
+    <None Update="Tomato.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Update="hosting.json">

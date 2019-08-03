@@ -11,7 +11,7 @@
             "out_file": "/home/dotnet/logs/survey-app/console.log",
             "max_memory_restart": "500M",
             "env": {
-                "DOTBPE_ENVIRONMENT": "production"
+                "Tomato_ENVIRONMENT": "production"
             }
         },
 
@@ -26,7 +26,7 @@
             "out_file": "/home/dotnet/logs/survey-gateway/console.log",
             "max_memory_restart": "500M",
             "env": {
-                "DOTBPE_ENVIRONMENT": "production"
+                "Tomato_ENVIRONMENT": "production"
             }
         }
     ]

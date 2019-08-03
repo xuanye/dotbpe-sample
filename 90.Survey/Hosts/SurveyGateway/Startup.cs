@@ -1,8 +1,8 @@
-using DotBPE.AspNetGateway;
-using DotBPE.Protobuf;
-using DotBPE.Protocol.Amp;
-using DotBPE.Rpc;
-using DotBPE.Rpc.Options;
+using Tomato.AspNetGateway;
+using Tomato.Protobuf;
+using Tomato.Protocol.Amp;
+using Tomato.Rpc;
+using Tomato.Rpc.Options;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Redis;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using DotBPE.Rpc.Netty;
+using Tomato.Rpc.Netty;
 using Survey.Protocols;
 
 namespace SurveyGateway
@@ -45,8 +45,8 @@ namespace SurveyGateway
             services.AddMessageParser(); //添加HTTP消息和AmpMessage消息的格式转换器
             services.AddProtocolPipe<AmpMessage>();//添加默认管道
 
-            //添加DotBPE的Amp协议支持
-            services.AddDotBPE();
+            //添加Tomato的Amp协议支持
+            services.AddTomato();
             
             //cookie 认证相关
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -62,7 +62,7 @@ namespace SurveyGateway
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             //如果是单独的Gateway 需要设置一下， ProxyBuilder和默认的服务HostBuilder中已经默认添加
-            DotBPE.Rpc.Environment.SetServiceProvider(app.ApplicationServices);
+            Tomato.Rpc.Environment.SetServiceProvider(app.ApplicationServices);
 
             //静态文件，默认目录是wwwroot
             app.UseDefaultFiles();

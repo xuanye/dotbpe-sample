@@ -4,9 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DotBPE.Extra.Castle" Version="$(ExtraCastlePackageVersion)" />
-    <PackageReference Include="DotBPE.Extra.MessagePack" Version="$(ExtraMessagePackPackageVersion)" />
-    <PackageReference Include="DotBPE.Rpc" Version="$(RpcPackageVersion)" />
+    <PackageReference Include="Tomato.Extra.Castle" Version="$(ExtraCastlePackageVersion)" />
+    <PackageReference Include="Tomato.Extra.MessagePack" Version="$(ExtraMessagePackPackageVersion)" />
+    <PackageReference Include="Tomato.Rpc" Version="$(RpcPackageVersion)" />
   </ItemGroup>
 
 </Project>

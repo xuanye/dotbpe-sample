@@ -1,6 +1,6 @@
-using DotBPE.Protobuf;
-using DotBPE.Protocol.Amp;
-using DotBPE.Rpc;
+using Tomato.Protobuf;
+using Tomato.Protocol.Amp;
+using Tomato.Rpc;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Caching.Redis;
 using Microsoft.Extensions.DependencyInjection;
@@ -33,7 +33,7 @@ namespace SurveyServerHost
             services.AddAuditLog();
 
             // 使用AMP协议
-            services.AddDotBPE();
+            services.AddTomato();
             //注册服务接收器
             services.ScanAddServiceActors("Survey.Impl.");
 
@@ -45,7 +45,7 @@ namespace SurveyServerHost
             //设置上下文，可以在上下文中存储对象 在一次请求中可以传递
             services.AddSingleton<IContextAccessor<AmpMessage>, DefaultContextAccessor<AmpMessage>>();
             //Vulcan数据层需要的对象，如果不使用Vulcan可以不用注册
-            services.AddSingleton<IRuntimeContextStorage, DotBPECallContextStorage<AmpMessage>>();
+            services.AddSingleton<IRuntimeContextStorage, TomatoCallContextStorage<AmpMessage>>();
             //链接管理器
             services.AddSingleton<IConnectionManagerFactory, ConnectionManagerFactory>();
             //使用MySQL
