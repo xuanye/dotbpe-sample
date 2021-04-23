@@ -30,10 +30,10 @@ namespace Math.ServiceDefinition {
             "ZG90YnBlLlN1bVJlcRoOLmRvdGJwZS5TdW1SZXMiBNDzGAEaBMjzGGRCH0gB",
             "qgIWTWF0aC5TZXJ2aWNlRGVmaW5pdGlvbujzGAFQAGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Tomato.Extra.Protobuf.TomatoOptionReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Math.ServiceDefinition.SumReq), global::Math.ServiceDefinition.SumReq.Parser, new[]{ "A", "B" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Math.ServiceDefinition.SumRes), global::Math.ServiceDefinition.SumRes.Parser, new[]{ "Total" }, null, null, null)
+          new pbr::FileDescriptor[] { global::DotBPE.Extra.Protobuf.DotbpeOptionReflection.Descriptor, },
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Math.ServiceDefinition.SumReq), global::Math.ServiceDefinition.SumReq.Parser, new[]{ "A", "B" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Math.ServiceDefinition.SumRes), global::Math.ServiceDefinition.SumRes.Parser, new[]{ "Total" }, null, null, null, null)
           }));
     }
     #endregion

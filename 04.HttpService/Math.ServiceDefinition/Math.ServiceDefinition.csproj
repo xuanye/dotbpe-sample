@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Tomato.Extra.Castle" Version="$(ExtraCastlePackageVersion)" />
-    <PackageReference Include="Tomato.Extra.JsonNet" Version="$(ExtraJsonNetPackageVersion)" />
-    <PackageReference Include="Tomato.Extra.MessagePack" Version="$(ExtraMessagePackPackageVersion)" />
-    <PackageReference Include="Tomato.Gateway" Version="$(GatewayPackageVersion)" />
-    <PackageReference Include="Tomato.Rpc" Version="$(RpcPackageVersion)" />
+    <PackageReference Include="DotBPE.Extra.Castle" Version="$(ExtraCastlePackageVersion)" />
+    <PackageReference Include="DotBPE.Extra.JsonNet" Version="$(ExtraJsonNetPackageVersion)" />
+    <PackageReference Include="DotBPE.Extra.MessagePack" Version="$(ExtraMessagePackPackageVersion)" />
+    <PackageReference Include="DotBPE.Gateway" Version="$(GatewayPackageVersion)" />
+    <PackageReference Include="DotBPE.Rpc" Version="$(RpcPackageVersion)" />
   </ItemGroup>
 
 </Project>

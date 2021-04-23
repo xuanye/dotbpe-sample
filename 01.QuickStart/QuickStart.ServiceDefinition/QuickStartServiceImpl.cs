@@ -1,5 +1,5 @@
-using Tomato.Rpc;
-using Tomato.Rpc.Server;
+using DotBPE.Rpc;
+using DotBPE.Rpc.Server;
 using System.Threading.Tasks;
 
 namespace QuickStart.ServiceDefinition
@@ -11,7 +11,7 @@ namespace QuickStart.ServiceDefinition
             var result = new RpcResult<SayHelloRes> { Data = new SayHelloRes() };
 
             result.Code = 0;
-            result.Data.GreetingWords = $"Hello {req.Name},Welcome to Tomato!";
+            result.Data.GreetingWords = $"Hello {req.Name},Welcome to DotBPE!";
             return Task.FromResult(result);
         }
     }

@@ -3,7 +3,8 @@
 #region Designer generated code
 
 using System.Threading.Tasks;
-using Tomato.Rpc;
+using DotBPE.Rpc;
+using DotBPE.Extra.Protobuf;
 
 namespace Math.ServiceDefinition 
 {

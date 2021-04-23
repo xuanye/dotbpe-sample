@@ -7,9 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Tomato.Extra.Castle" Version="$(ExtraCastlePackageVersion)" />
-    <PackageReference Include="Tomato.Extra.Protobuf" Version="$(ExtraProtobufPackageVersion)" />
-    <PackageReference Include="Tomato.Rpc" Version="$(RpcPackageVersion)" />    
+    <PackageReference Include="DotBPE.Extra.Castle" Version="$(ExtraCastlePackageVersion)" />
+    <PackageReference Include="DotBPE.Extra.Protobuf" Version="$(ExtraProtobufPackageVersion)" />
+    <PackageReference Include="DotBPE.Rpc" Version="$(RpcPackageVersion)" />
+    <PackageReference Include="Google.Protobuf" Version="3.15.2" />
   </ItemGroup>
 
 </Project>

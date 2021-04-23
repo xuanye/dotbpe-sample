@@ -15,9 +15,9 @@
 新建ServiceDefinition,添加引用
 
 ```
-   dotnet nuget add Tomato.Extra.Castle
-   dotnet nuget add Tomato.Extra.MessagePack
-   dotnet nuget add Tomato.Rpc
+   dotnet nuget add DotBPE.Extra.Castle
+   dotnet nuget add DotBPE.Extra.MessagePack
+   dotnet nuget add DotBPE.Rpc
 ```
 
 然后开始定义接口
@@ -116,5 +116,5 @@ static void Main(string[] args)
 
 ## 反馈
 
-可以通过 [https://github.com/xuanye/tomato/issues](https://github.com/xuanye/tomato/issues) 反馈问题
+可以通过 [https://github.com/xuanye/dotbpe/issues](https://github.com/xuanye/dotbpe/issues) 反馈问题
 另外我创建了一个QQ群：699044833

@@ -29,13 +29,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Math.Client", "02.JsonSeria
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protos", "protos", "{0A039E04-29E6-433B-8BF8-22DF5546D751}"
 	ProjectSection(SolutionItems) = preProject
-		03.ProtobufSerializer\protos\Tomato_option.proto = 03.ProtobufSerializer\protos\Tomato_option.proto
+		03.ProtobufSerializer\protos\dotbpe_option.proto = 03.ProtobufSerializer\protos\dotbpe_option.proto
+		03.ProtobufSerializer\protos\S100_MathService.proto = 03.ProtobufSerializer\protos\S100_MathService.proto
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{25B26BAE-67EF-4493-A5A3-39DE630747A6}"
 	ProjectSection(SolutionItems) = preProject
-		03.ProtobufSerializer\scripts\Tomato-amp-link = 03.ProtobufSerializer\scripts\Tomato-amp-link
-		03.ProtobufSerializer\scripts\Tomato-amp-link.cmd = 03.ProtobufSerializer\scripts\Tomato-amp-link.cmd
+		03.ProtobufSerializer\scripts\dotbpe-amp-link = 03.ProtobufSerializer\scripts\dotbpe-amp-link
+		03.ProtobufSerializer\scripts\dotbpe-amp-link.cmd = 03.ProtobufSerializer\scripts\dotbpe-amp-link.cmd
 		03.ProtobufSerializer\scripts\gen-code.sh = 03.ProtobufSerializer\scripts\gen-code.sh
 	EndProjectSection
 EndProject
