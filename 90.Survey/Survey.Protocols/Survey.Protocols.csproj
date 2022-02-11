@@ -11,7 +11,7 @@
   <ItemGroup>
     <PackageReference Include="Tomato.Protobuf" Version="1.2.10" />
     <PackageReference Include="Tomato.Protocol.Amp" Version="1.2.10" />
-    <PackageReference Include="Google.Protobuf" Version="3.8.0" />
+    <PackageReference Include="Google.Protobuf" Version="3.15.0" />
   </ItemGroup>
 
 </Project>
